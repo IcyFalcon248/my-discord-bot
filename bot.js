@@ -16,11 +16,11 @@ const TOKEN = 'MTI5ODg1NTM2NjUwNjk3MTE3Nw.GcbpcP.eP7iOJW98Kv8RFQvzIdcPUyDtzR65FG
 const characters = {
     "Character1": {
         description: "Description for Character 1.",
-        chatUrl: "YOUR_PERCHANCE_CHAT_URL_FOR_CHARACTER1",
+        chatUrl: "https://perchance.org/ai-character-chat?data=Mochi-Chan~55be8174dea95bfc1d4f4d8d7a199788.gz",
     },
     "Character2": {
         description: "Description for Character 2.",
-        chatUrl: "YOUR_PERCHANCE_CHAT_URL_FOR_CHARACTER2",
+        chatUrl: "https://perchance.org/ai-character-chat?data=Mochi-Chan~55be8174dea95bfc1d4f4d8d7a199788.gz",
     },
     // Add more characters as needed
 };
@@ -80,7 +80,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 // Function to generate an image based on a prompt
 async function generateImage(prompt) {
     try {
-        const response = await axios.post('YOUR_PERCHANCE_IMAGE_GENERATION_URL', { prompt }); // Adjust as needed
+        const response = await axios.post('https://perchance.org/ai-character-chat?data=Mochi-Chan~55be8174dea95bfc1d4f4d8d7a199788.gz', { prompt }); // Adjust as needed, your perchance image generation url here
         return response.data.imageUrl; // Adjust based on response structure
     } catch (error) {
         console.error('Error generating image:', error);
