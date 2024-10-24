@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 // Your Discord bot token
-const TOKEN = 'MTI5ODg1NTM2NjUwNjk3MTE3Nw.GcbpcP.eP7iOJW98Kv8RFQvzIdcPUyDtzR65FG7TgVyew';
+const TOKEN = 'MTI5ODg1NTM2NjUwNjk3MTE3Nw.G8zCrN.pfmcK3oGwNLmfqPD-TnGguOIei4KS9_3ZXckKs';
 
 // Character definitions
 const characters = {
