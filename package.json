@@ -1,0 +1,13 @@
+{
+  "name": "Assistant",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  }
+}
